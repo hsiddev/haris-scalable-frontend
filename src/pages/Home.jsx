@@ -49,11 +49,11 @@ const Home = () => {
     <div className="home-container">
       <header className="header">
         <div className="header-content">
-          <h1>Haris Assignment</h1>
+          <h1>Haris Assignment - Scalable Assignment</h1>
           <div className="header-actions">
             {user ? (
               <>
-                <span className="user-info">Welcome, {user.username}</span>
+                <span className="user-info">Welcome, {user.username}, {user.name}</span>
                 {user.role === 'creator' && (
                   <Link to="/creator/upload" className="btn-primary">
                     Upload Photo
