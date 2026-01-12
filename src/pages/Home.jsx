@@ -49,7 +49,7 @@ const Home = () => {
     <div className="home-container">
       <header className="header">
         <div className="header-content">
-          <h1>MediaShare</h1>
+          <h1>Haris Assignment</h1>
           <div className="header-actions">
             {user ? (
               <>
